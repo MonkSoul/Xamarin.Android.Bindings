@@ -1,0 +1,3 @@
+# Xamarin.Android.ZXing.Android.Embedded 文档
+
+整理中...

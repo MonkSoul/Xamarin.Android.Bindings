@@ -1,0 +1,5 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.baidu.mapapi']/class[@name='VersionInfo']/field[@name='VERSION_INFO']" name="managedName">VERSION_INFO</attr>
+  <attr path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.OnMapStatusChangeListener']/method[@name='onMapStatusChangeStart' and count(parameter)=2 and parameter[1][@type='com.baidu.mapapi.map.MapStatus'] and parameter[2][@type='int']]" name="name">OnMapStatusChangeStarts</attr>
+  <attr path="/api/package[@name='com.baidu.mapapi.search.poi']/interface[@name='OnGetPoiSearchResultListener']/method[@name='onGetPoiDetailResult' and count(parameter)=1 and parameter[1][@type='com.baidu.mapapi.search.poi.PoiDetailSearchResult']]" name="name">OnGetPoiDetailSearchResult</attr>
+</metadata>

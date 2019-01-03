@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.RecyclerView", "Xamarin.Android.RecyclerView\Xamarin.Android.RecyclerView.csproj", "{5EB2DC21-7FE0-44E3-883F-C9818FD48CE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB2DC21-7FE0-44E3-883F-C9818FD48CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB2DC21-7FE0-44E3-883F-C9818FD48CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB2DC21-7FE0-44E3-883F-C9818FD48CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB2DC21-7FE0-44E3-883F-C9818FD48CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB3B898C-9D00-4031-93B5-BFC178B332E0}
+	EndGlobalSection
+EndGlobal

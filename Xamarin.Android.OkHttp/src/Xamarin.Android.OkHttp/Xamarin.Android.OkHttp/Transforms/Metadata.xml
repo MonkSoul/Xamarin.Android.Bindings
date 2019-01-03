@@ -1,0 +1,4 @@
+﻿<metadata>
+  <attr path="/api/package[@name='okhttp3.internal.ws']/class[@name='RealWebSocket.Close']" name="name">CloseClass</attr>
+  <attr path="/api/package[@name='okhttp3.internal.http2']/class[@name='Http2Connection.PingRunnable']/method[@name='execute' and count(parameter)=0]" name="visibility">protected</attr>
+</metadata>

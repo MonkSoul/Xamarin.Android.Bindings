@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5103B54E-EA92-45C4-87E1-3A0F3BAFC035}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xamarin.Android.RxJava</RootNamespace>
+    <AssemblyName>Xamarin.Android.RxJava</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Additions\ArrayListCapacityCallable.cs" />
+    <Compile Include="Additions\BasicFuseableObserver.cs" />
+    <Compile Include="Additions\BasicIntQueueDisposable.cs" />
+    <Compile Include="Additions\BasicQueueDisposable.cs" />
+    <Compile Include="Additions\BlockingBaseObserver.cs" />
+    <Compile Include="Additions\BufferedReplayCallable.cs" />
+    <Compile Include="Additions\BufferedTimedReplayCallable.cs" />
+    <Compile Include="Additions\ComputationTask.cs" />
+    <Compile Include="Additions\DefaultObserver.cs" />
+    <Compile Include="Additions\DeferredScalarObserver.cs" />
+    <Compile Include="Additions\DelayObserver.cs" />
+    <Compile Include="Additions\DelayObserver_.cs" />
+    <Compile Include="Additions\DisposableMaybeObserver.cs" />
+    <Compile Include="Additions\DisposableObserver.cs" />
+    <Compile Include="Additions\DisposableSingleObserver.cs" />
+    <Compile Include="Additions\FlatMapIntoIterable.cs" />
+    <Compile Include="Additions\FlatMapWithCombinerOuter.cs" />
+    <Compile Include="Additions\HashMapSupplier.cs" />
+    <Compile Include="Additions\HashSetCallable.cs" />
+    <Compile Include="Additions\IOTask.cs" />
+    <Compile Include="Additions\ItemDelayFunction.cs" />
+    <Compile Include="Additions\NewThreadTask.cs" />
+    <Compile Include="Additions\NoSuchElementCallable.cs" />
+    <Compile Include="Additions\OnError.cs" />
+    <Compile Include="Additions\QueueDrainObserver.cs" />
+    <Compile Include="Additions\ReplayCallable.cs" />
+    <Compile Include="Additions\ReplayFunction.cs" />
+    <Compile Include="Additions\ResourceMaybeObserver.cs" />
+    <Compile Include="Additions\ResourceObserver.cs" />
+    <Compile Include="Additions\ResourceSingleObserver.cs" />
+    <Compile Include="Additions\ScheduledDirectTask.cs" />
+    <Compile Include="Additions\SimpleBiGenerator.cs" />
+    <Compile Include="Additions\SimpleBiGenerator_.cs" />
+    <Compile Include="Additions\SimpleGenerator.cs" />
+    <Compile Include="Additions\SimpleGenerator_.cs" />
+    <Compile Include="Additions\SingleTask.cs" />
+    <Compile Include="Additions\Subject.cs" />
+    <Compile Include="Additions\TimedReplayCallable.cs" />
+    <Compile Include="Additions\TimedRunnable.cs" />
+    <Compile Include="Additions\TimedRunnable_.cs" />
+    <Compile Include="Additions\TimestampFunction.cs" />
+    <Compile Include="Additions\ToMapKeySelector.cs" />
+    <Compile Include="Additions\ToMapKeyValueSelector.cs" />
+    <Compile Include="Additions\ToMultimapKeyValueSelector.cs" />
+    <Compile Include="Additions\ZipIterableFunction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jars\AboutJars.txt" />
+    <None Include="Additions\AboutAdditions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\rxjava-2.2.5.jar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
