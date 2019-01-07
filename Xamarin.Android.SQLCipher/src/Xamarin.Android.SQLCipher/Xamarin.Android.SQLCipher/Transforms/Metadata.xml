@@ -1,0 +1,4 @@
+﻿<metadata>
+  <attr path="/api/package[@name='net.sqlcipher']/class[@name='AbstractCursor']/method[@name='getWindow' and count(parameter)=0]" name="managedReturn">Android.Database.CursorWindow</attr>
+  <remove-node path="/api/package[@name='net.sqlcipher']/interface[@name='Cursor']/method[@name='getType' and count(parameter)=1 and parameter[1][@type='int']]" />
+</metadata>
