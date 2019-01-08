@@ -1,0 +1,6 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.qmuiteam.qmui.widget']/class[@name='QMUITabSegment.TabAdapter']/method[@name='createView' and count(parameter)=1 and parameter[1][@type='android.view.ViewGroup']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.qmuiteam.qmui.widget']/class[@name='QMUITabSegment.TabAdapter']/method[@name='bind' and count(parameter)=3 and parameter[1][@type='com.qmuiteam.qmui.widget.QMUITabSegment.Tab'] and parameter[2][@type='com.qmuiteam.qmui.widget.QMUITabSegment.TabItemView'] and parameter[3][@type='int']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.qmuiteam.qmui.widget']/class[@name='QMUITabSegment.TabAdapter']/method[@name='bind' and count(parameter)=3 and parameter[1][@type='com.qmuiteam.qmui.widget.QMUITabSegment.Tab'] and parameter[2][@type='com.qmuiteam.qmui.widget.QMUITabSegment.TabItemView'] and parameter[3][@type='int']]/parameter[2]" name="managedType">Java.Lang.Object</attr>
+  <remove-node path="/api/package[@name='com.qmuiteam.qmui.widget.textview']/class[@name='QMUISpanTouchFixTextView']/method[@name='setPressed' and count(parameter)=1 and parameter[1][@type='boolean']]" />
+</metadata>
