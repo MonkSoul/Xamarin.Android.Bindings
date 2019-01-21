@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.VasSonic", "Xamarin.Android.VasSonic\Xamarin.Android.VasSonic.csproj", "{98E8ABEB-D3B6-4E88-A71D-71A30F46D1A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98E8ABEB-D3B6-4E88-A71D-71A30F46D1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E8ABEB-D3B6-4E88-A71D-71A30F46D1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E8ABEB-D3B6-4E88-A71D-71A30F46D1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E8ABEB-D3B6-4E88-A71D-71A30F46D1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F93D91D-FA2E-4433-BD74-2C2DB11D0B46}
+	EndGlobalSection
+EndGlobal
